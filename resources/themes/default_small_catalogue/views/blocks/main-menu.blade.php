@@ -8,7 +8,7 @@
 
 <nav>
     <ul class="nav nav-justified">
-        <li class="no-stretch">
+        <li class="no">
             <a href="<?= route('home', ['locale' => loc()]); ?>">
                 <b class="glyphicon glyphicon-home"></b>
             </a>
