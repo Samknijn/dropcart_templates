@@ -19,7 +19,7 @@
 
     <div class="row">
         <div class="col-md-3 center">
-            <img src="{{ ((count($product['images']) > 0) ? $product['images'][0] : env('BASE_URL', '/') . 'includes/images/no_image.gif') }}" class="fill">
+            <img src="{{ ((count($product['images']) > 0) ? $product['images'][0] : env('BASE_URL', '/') . 'img/no_image.gif') }}" class="fill">
         </div>
         <div class="col-md-7">
             {{-- PRODUCT DESCRIPTION --}}
