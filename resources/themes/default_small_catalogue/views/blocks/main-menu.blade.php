@@ -15,7 +15,7 @@
         </li>
         
                 @forelse ($DropCart->getCategories() as $category)
-        <li style="width: 40%;">
+        <li>
             <a href="{{ route('products_by_category', [
                     'locale' => loc(),
                     'category_name' => str_slug($category['name']),
@@ -28,7 +28,7 @@
             <li style="text-align: center; font-weight: bold">&nbsp;&nbsp;{{ lang('no_categories') }}</li>
         @endforelse
         
-        <li style="width: 40%;">
+        <li>
             <form class="form-horizontal" method="get" action="<?= route('products_by_query', ['locale' => loc()]); ?>">
                 @if (isset($selected_brands))
                     @foreach($selected_brands as $key => $selected_brand)
