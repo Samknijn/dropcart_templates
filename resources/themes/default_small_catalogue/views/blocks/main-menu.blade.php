@@ -29,7 +29,7 @@
         @endforelse
         
         <li>
-            <form class="form-horizontal" method="get" action="<?= route('products_by_query', ['locale' => loc()]); ?>">
+            <form class="form-horizontal" method="get" action="<?= route('products_by_query', ['locale' => loc()]); ?>" style="margin-bottom: 0;">
                 @if (isset($selected_brands))
                     @foreach($selected_brands as $key => $selected_brand)
                         <input type="hidden" name="brands[{{$key}}]" value="{{$selected_brand}}" />
