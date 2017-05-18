@@ -16,7 +16,7 @@
 <!-- container -->
 </div>
 
-@include('Default::dynamic.post-js')
+@include('DefaultSmallCatalogue::dynamic.post-js')
 
 @stack('post-js')
 </body>

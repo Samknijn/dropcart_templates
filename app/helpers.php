@@ -10,7 +10,7 @@ if(! function_exists ( 'lang' ) )
 	function register_current_language_file()
 	{
 		global $currentLanguageFile, $app;
-		$currentLanguageFile = resource_path('themes/' . env('THEME', 'default') . '/lang/' . strtolower($app['translator']->getLocale()) . '.php');
+		$currentLanguageFile = resource_path('themes/' . env('THEME', 'default_small_catalogue') . '/lang/' . strtolower($app['translator']->getLocale()) . '.php');
 		if(file_exists($currentLanguageFile))
 			$currentLanguageFile = include ( $currentLanguageFile );
 
@@ -24,7 +24,7 @@ if(! function_exists ( 'lang' ) )
 		if(strtolower($lang) != strtolower($app['translator']->getLocale()))
 		{
 			// Load other language
-			$tempLanguageFile = resource_path('themes/' . env('THEME', 'default') . '/lang/' . strtolower($lang) . '.php');
+			$tempLanguageFile = resource_path('themes/' . env('THEME', 'default_small_catalogue') . '/lang/' . strtolower($lang) . '.php');
 			if(file_exists($tempLanguageFile))
 				$languageArray = include ($tempLanguageFile);
 		}

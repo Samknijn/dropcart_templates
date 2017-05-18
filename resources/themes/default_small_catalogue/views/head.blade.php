@@ -23,12 +23,12 @@
     </title>
 
     <!-- STYLES -->
-@include('Default::dynamic.styles')
+@include('DefaultSmallCatalogue::dynamic.styles')
 
 @stack('styles')
 
 <!-- SCRIPTS -->
-    @include('Default::dynamic.pre-js')
+    @include('DefaultSmallCatalogue::dynamic.pre-js')
 
     @stack('pre-js')
 </head>
@@ -78,15 +78,15 @@
         <div class="col-md-4">
             @if(env('MULTILINGUAL', FALSE))
                 <div class="float-right" style="padding-top: 10px; padding-left: 10px;">
-                    @include('Default::blocks.language-switcher')
+                    @include('DefaultSmallCatalogue::blocks.language-switcher')
                 </div>
             @endif
             <div class="push-right">
-                @include("Default::blocks.pages-menu")
+                @include("DefaultSmallCatalogue::blocks.pages-menu")
                 <div class="float-clear"></div>
 
                 <div id="cart">
-                    @include('Default::blocks.shopping-bag')
+                    @include('DefaultSmallCatalogue::blocks.shopping-bag')
                 </div>
 
             </div>
@@ -94,5 +94,5 @@
     </div>
 
     <div class="masthead">
-        @include('Default::blocks.main-menu')
+        @include('DefaultSmallCatalogue::blocks.main-menu')
     </div>

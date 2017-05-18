@@ -9,7 +9,7 @@
 ?>
 
 
-@extends('Default::layout')
+@extends('DefaultSmallCatalogue::layout')
 
 @section('page_title', isset($page_title) ? $page_title : '')
 
@@ -44,7 +44,7 @@
         </li>
     </ul>
 
-    @include('Default::blocks.errors-and-warnings')
+    @include('DefaultSmallCatalogue::blocks.errors-and-warnings')
 
 	
 	@if($transaction_status == "CONFIRMED")

@@ -77,7 +77,7 @@ return [
 
 	'page_contact'		=> [
 		'title'			=> 'Our contact details',
-		'content'		=> '@Default::dynamic.page-contact',
+		'content'		=> '@DefaultSmallCatalogue::dynamic.page-contact',
 
 		'emailaddress_desc'	=> 'E-mail address',
 		'emailaddress'		=> 'email@address.co.uk',

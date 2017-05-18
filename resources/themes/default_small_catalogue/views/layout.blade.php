@@ -8,9 +8,9 @@
  */
 ?>
 
-@include('Default::head')
+@include('DefaultSmallCatalogue::head')
 
 @yield('content')
 
 
-@include('Default::footer')
+@include('DefaultSmallCatalogue::footer')

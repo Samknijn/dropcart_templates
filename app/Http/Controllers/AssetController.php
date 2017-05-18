@@ -32,7 +32,7 @@ class AssetController extends Controller
 
     private function assetExistsInTheme($file)
     {
-        $path = resource_path('themes/' . env('THEME', 'default') . '/assets/' . $file);
+        $path = resource_path('themes/' . env('THEME', 'default_small_catalogue') . '/assets/' . $file);
         if(file_exists($path))
             return $path;
 

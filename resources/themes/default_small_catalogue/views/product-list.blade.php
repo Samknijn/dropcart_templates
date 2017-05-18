@@ -9,7 +9,7 @@
 ?>
 
 
-@extends('Default::layout')
+@extends('DefaultSmallCatalogue::layout')
 
 @section('page_title', isset($page_title) ? $page_title : '')
 

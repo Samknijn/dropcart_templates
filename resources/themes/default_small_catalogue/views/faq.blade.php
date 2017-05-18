@@ -9,7 +9,7 @@
 ?>
 
 
-@extends('Default::static-page')
+@extends('DefaultSmallCatalogue::static-page')
 
 @section('page_title', $page_title)
 
@@ -17,7 +17,7 @@
 @section('content')
     @parent
 
-    @include("Default::blocks.faq", [
+    @include("DefaultSmallCatalogue::blocks.faq", [
     'faq' => $faq
     ])
 @endsection
