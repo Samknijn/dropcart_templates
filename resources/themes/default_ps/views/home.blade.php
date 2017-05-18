@@ -20,12 +20,14 @@
     <h1>{{ lang('page_home.lead_title') }}</h1>
     <p class="lead">
         {{ lang('page_home.lead_text') }}
+        
     </p>
 </div>
+
 
 @include('DefaultPs::components.printer-selector')
 
 <div class="row">
-
+    <img class="img-responsive" src="../assets/img/jettowelslim.png">
 </div>
 @endsection

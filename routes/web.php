@@ -33,6 +33,12 @@ $app->group([
         return View::make('Current::home');
     }]);
 
+        //**Jet Towel Slim */
+     $app->get('/' . lang('jettowelslim'), ['as' => 'jettowelslim', function() use ($app)
+    {
+        return View::make('Current::jettowelslim');
+    }]);
+    
 	/** CONTACT PAGE */
     $app->get('/' . lang('url_contact'), ['as' => 'contact', function() use ($app)
     {
@@ -43,6 +49,8 @@ $app->group([
         ]);
     }]);
 
+    
+    
 	/** ABOUT US PAGE */
     $app->get('/' . lang('url_aboutus'), ['as' => 'aboutus', function() use ($app)
     {

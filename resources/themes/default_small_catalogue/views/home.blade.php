@@ -1,3 +1,18 @@
+<style>
+    .imgcolor{
+        background-color: #FAFBF6;
+    }
+    .imgwidth{
+        width:288px;
+    }
+    .imgwidth1{
+        width:303px;
+    }
+    .imgwidth2{
+        width:281px;
+    }
+</style>
+
 <?php
 
 /**
@@ -23,6 +38,23 @@
 </div>
 
 <div class="row">
-
+        <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelslim.png' }}">
+  
+        <div class="imgcolor imgwidth">
+            <br/>
+        </div>
+    </div>
+        <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
+        
+    
+        <div class="imgcolor imgwidth1">
+            <br/>
+        </div>
+    </div>
+    <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
+        
+            <br/>
+        </div>
+    </div>
 </div>
 @endsection
