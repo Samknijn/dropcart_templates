@@ -13,8 +13,8 @@
                 <b class="glyphicon glyphicon-home"></b>
             </a>
         </li>
-
-        @forelse ($DropCart->getCategories() as $category)
+        
+                @forelse ($DropCart->getCategories() as $category)
         <li>
             <a href="{{ route('products_by_category', [
                     'locale' => loc(),
@@ -27,5 +27,18 @@
         @empty
             <li style="text-align: center; font-weight: bold">&nbsp;&nbsp;{{ lang('no_categories') }}</li>
         @endforelse
+        
+        <li class="no">
+            <a href="<?= route('home', ['locale' => loc()]); ?>">
+                Over ons
+            </a>
+        </li>
+        
+        <li class="no">
+            <a href="<?= route('home', ['locale' => loc()]); ?>">
+                Contact
+            </a>
+        </li>
+        
     </ul>
 </nav>
