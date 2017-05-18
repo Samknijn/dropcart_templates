@@ -38,22 +38,29 @@
 </div>
 
 <div class="row">
+    <div class="col-sm-4 text-center">
         <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelslim.png' }}">
   
         <div class="imgcolor imgwidth">
             <br/>
+        <input type="button" class="btn btn-primary" value="Meer informatie">
         </div>
     </div>
+    <div class="col-sm-4 text-center">
         <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
         
     
         <div class="imgcolor imgwidth1">
             <br/>
+        <input type="button" class="btn btn-primary" value="Meer informatie">
         </div>
     </div>
+    <div class="col-sm-4 text-center">
     <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
         
+        <div class="imgcolor imgwidth2 ">
             <br/>
+            <input type="button" class="btn btn-primary " value="Meer informatie">
         </div>
     </div>
 </div>
