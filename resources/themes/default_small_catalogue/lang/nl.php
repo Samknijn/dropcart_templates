@@ -11,7 +11,7 @@
 
 return [
 	'footer_text'	=> '&copy; ' . date('Y') . ' - Alle prijzen zijn inclusief BTW - Merknamen zijn alleen gebruikt om de toepasbaarheid van producten aan te geven en dienen verder niet te worden geassocieerd met ' . env('SITE_NAME'),
-	'site_slug'		=> 'Hygreen',
+	'site_slug'		=> '| Hygiënisch, Duurzaam en Kostenbesparend.',
 	'contact'		=> 'Contact',
 	'aboutus'		=> 'Over ons',
 	'support'		=> 'Support & FAQ',
@@ -74,8 +74,8 @@ return [
 
 	'page_home'			=>  [
 			'title'			=> 'Welkom',
-			'lead_title'	=> 'Originele toners voor spotprijzen!',
-			'lead_text'		=> '1 jaar garantie, 14 dagen bedenktermijn, uitstekende prijs-kwaliteitsverhouding'
+			'lead_title'	=> 'Handdrogers',
+			'lead_text'		=> '10 seconde droogtijd / Zeer energiezuinig / lage geluidsproductie / Water opvangbak'
 	],
 
 	'page_contact'		=> [
