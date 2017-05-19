@@ -58,7 +58,7 @@
   
         <div class="imgcolor imgwidth text-center">
             <br/>
-        <input type="button" class="btn btn-primary btn-width" value="Meer informatie">
+            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
         </div>
     </div>
     <div class="col-sm-4 text-center">
