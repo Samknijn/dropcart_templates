@@ -33,62 +33,61 @@
     </div>
     <div class="col-sm-7 text-center">
         <br />
-        <a href="{{ env('BASE_URL', '/') . 'nl/producten?query=Jet+Towel+Slim' }}" class="btn btn-primary">Bestel direct</a>
+        <a href="{{ env('BASE_URL', '/') . 'nl/producten?query=Jet+Towel+Slim' }}" class="btn btn-primary">{{ lang('page_jettowelslim.ordernow') }} </a>
     </div>
 </div>
 
 <div class="container" style="margin-top:50px;">
     <div class="row">
         <div class="col-sm-12 text-center">
-    <h2>Waarom kiezen voor de Mitsubishi Jet Towel Slim™ handdroger?</h2><br/>
+    <h2>{{ lang('page_jettowelslim.slogan') }} </h2><br/>
         </div>
     </div>
     <div class="row">
         
-    <div class="panel-group" id="faqAccordion">
+       <div class="panel-group" id="faqAccordion">
         <div class="col-sm-6">
               
         <div class="panel panel-default ">
             
             <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Hygiëne</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q1') }}</a>
               </h4>
 
             </div>
             <div id="question0" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>De Mitsubishi Jet Towel Slim handdroger is compleet touch-free te bedienen en de meest vitale onderdelen hebben een antimicrobiologische bescherming gekregen. Daarnaast is het apparaat eenvoudig te reinigen.
-                        </p>
+                    <p>{{ lang('page_jettowelslim.a1') }}</p>
                 </div>
             </div>
         </div>
         <div class="panel panel-default ">
             <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Water opvangbakje</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q2') }}</a>
               </h4>
 
             </div>
             <div id="question1" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>Het water dat van uw handen komt, wordt verzameld in het waterreservoir en komt keurig in het opvangbakje terecht.</p>
+                    <p>{{ lang('page_jettowelslim.a2') }}</p>
                 </div>
             </div>
         </div>
         <div class="panel panel-default ">
             <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Droog je handen in 10 seconden</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q3') }}</a>
               </h4>
 
             </div>
             <div id="question2" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>De Mitsubishi Jet Towel Slim handdroger droogt uw handen met een moderne techniek, waarbij gefilterde lucht met een snelheid van 382 km/u het vocht aan beide kanten van uw handen blaast.</p>
+                    <p>{{ lang('page_jettowelslim.a3') }}</p>
                 </div>
             </div>
         </div>
@@ -98,42 +97,42 @@
         <div class="panel panel-default ">
             <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Geluid en energieverbruik</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q4') }}</a>
               </h4>
 
             </div>
             <div id="question3" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>De motor is een belangrijk onderdeel in de Mitsubishi Jet Towel Slim. Mitsubishi Electric heeft na 20 jaar ontwikkelen een duurzame motor gemaakt met een geluidsproductie van maar 58 db. Daarnaast heeft de Mitsubishi Jet Towel Slim een extreem laag energieverbruik van maar 1070 watt. </p>
+                    <p>{{ lang('page_jettowelslim.a4') }}</p>
                 </div>
             </div>
         </div>
         <div class="panel panel-default ">
             <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question4">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Milieuvriendelijk</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q5') }}</a>
               </h4>
 
             </div>
             <div id="question4" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>Bij het papier- en roldrogen zijn de milieugevolgen van het produceren, transporteren en weggooien buitensporig. De Mitsubishi Jet Towel Slim™ handdroger kent geen gebruiks- of verbruikskosten. </p>
+                    <p>{{ lang('page_jettowelslim.a5') }}</p>
                 </div>
             </div>
         </div>
         <div class="panel panel-default ">
             <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question5">
                  <h4 class="panel-title">
-                    <a href="#" class="ing">Uitstraling</a>
+                    <a href="#" class="ing">{{ lang('page_jettowelslim.q6') }}</a>
               </h4>
 
             </div>
             <div id="question5" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
 
-                    <p>Naast de uitstekende werking beschikt de Mitsubishi Jet Towel Slim™ handdroger over een zeer innovatief design met luxe verlichting. Hiermee zult u veel positieve reacties ontvangen bij uw klanten. </p>
+                    <p>{{ lang('page_jettowelslim.a6') }}</p>
                 </div>
             </div>
         </div>

@@ -16,12 +16,20 @@ return [
 	'aboutus'		=> 'Over ons',
 	'support'		=> 'Support & FAQ',
 	'account'		=> 'Mijn account',
+    
+        'footer'                => [
+                'contact'       => 'Contact met ons',
+                'volgons'       => 'Volg ons via',
+        ],
 
 	'page_all'		=> [
 		'shopping_bag'		=> 'Winkelwagen',
 		'articles'			=> 'artikelen',
 		'no_articles'		=> 'geen artikelen in winkelwagen.',
+                'moreinfo'              => 'Meer informatie',
 	],
+    
+    
 
 	'page_shopping_bag'	=> [
 		'title'				=> 'Uw winkelwagen',
@@ -81,9 +89,60 @@ return [
     	'page_jettowelslim'			=>  [
 			'title'			=> 'Welkom',
 			'lead_title'	=> 'Mitsubishi Jet Towel Slim™',
+                        'ordernow'         => 'Bestel direct',
+                        'slogan'         => 'Waarom kiezen voor de Mitsubishi Jet Towel Mini™ handdroger?',
 			'lead_text'		=> 'De dubbele luchtstroom - Mitsubishi Jet Towel Slim™ handdroger',
-                        'lead_description'      => 'Mitsubishi Electrics is de uitvinder van de hands in techniek en is sinds 1993 constant bezig met de ontwikkeling van de Mitsubishi Jet Towel. Ruim twintig jaar van ontwikkelen heeft ervoor gezorgd dat Mitsubishi Electrics nu met de Mitsubishi Jet Towel Slim op de markt is gekomen. De Mitsubishi Jet Towel Slim droogt uw handen in 10 seconden en daarbij is het energie verbruik en de geluidsproductie van de Jet Towel zeer laag. Daarnaast zorgt een opvangbakje ervoor dat de waterdruppels niet op de muur of op de grond terecht komen. De Mitsubishi Jet Towel Slim, is de stilste, schoonste en efficiëntste handdroger van dit moment.',
-	],
+                        'q1'         => 'Hygiëne',
+                        'a1'         => 'De Mitsubishi Jet Towel Slim handdroger is compleet touch-free te bedienen en de meest vitale onderdelen hebben een antimicrobiologische bescherming gekregen. Daarnaast is het apparaat eenvoudig te reinigen.',
+                        'q2'         => 'Water opvangbakje',
+                        'a2'         => 'Het water dat van uw handen komt wordt verzameld in het waterreservoir en komt keurig in het opvangbakje terecht.',
+                        'q3'         => 'Droog je handen in 10 seconden',
+                        'a3'         => 'De Mitsubishi Jet Towel Slim handdroger droogt uw handen met een moderne techniek, waarbij gefilterde lucht met een snelheid van 382 km/u het vocht aan beide kanten van uw handen blaast.',
+                        'q4'         => 'Geluid en energieverbruik',
+                        'a4'         => 'De motor is een belangrijk onderdeel in de Mitsubishi Jet Towel Slim. Mitsubishi Electric heeft na 20 jaar ontwikkelen een duurzame motor gemaakt met een geluidsproductie van maar 58 db. Daarnaast heeft de Mitsubishi Jet Towel Slim een extreem laag energieverbruik van maar 1070 watt. ',
+                        'q5'         => 'Milieuvriendelijk',
+                        'a5'         => 'Bij het papier- en roldrogen zijn de milieugevolgen van het produceren, transporteren en weggooien buitensporig. De Mitsubishi Jet Towel Slim™ handdroger kent geen gebruiks- of verbruikskosten.',
+                        'q6'         => 'Uitstraling',
+                        'a6'         => 'Naast de uitstekende werking beschikt de Mitsubishi Jet Towel Slim™ handdroger over een zeer innovatief design met luxe verlichting. Hiermee zult u veel positieve reacties ontvangen bij uw klanten.',
+ 	],
+    
+        'page_jettowelmini'          => [
+                'title'         => 'Mitsubishi Jet Towel™ Mini',
+                'subtitle'         => 'Compact maar krachtig en gebruiksvriendelijk, de nieuwe Jet Towel Mini™',
+                'ordernow'         => 'Bestel direct',
+                'slogan'         => 'Waarom kiezen voor de Mitsubishi Jet Towel Mini™ handdroger?',
+                'q1'         => 'Hygiëne',
+                'a1'         => 'Het design bestaat uit één stuk, met een sensor die is geïntegreerd in het handdroog gedeelte, dit voorkomt opbouw van vuil en is eenvoudig te reinigen. Alle onderdelen van de Mitsubishi Jet Towel Mini die in contact kunnen komen met water zijn behandeld met een antibacteriële laag. Op deze manier garandeert de Mitsubishi Jet Towel Mini de hoogste kwaliteit van hygiëne.',
+                'q2'         => 'Water opvangbakje',
+                'a2'         => 'Het water dat van uw handen komt wordt verzameld in het waterreservoir en komt keurig in het opvangbakje terecht.',
+                'q3'         => 'Geluid en energieverbruik',
+                'a3'         => 'De Mitsubishi Jet Towel Mini blaast het water van uw handen met een snelheid van 288 k/m per uur met een geluidsproductie van maar 62 db en een energieverbruik van maar 475 watt.',
+                'q4'         => 'Milieuvriendelijk',
+                'a4'         => 'Bij het papier- en roldrogen zijn de milieugevolgen van het produceren, transporteren en weggooien buitensporig. De Mitsubishi Jet Towel Mini handdroger kent geen gebruiks- of verbruikskosten.',
+                'q5'         => 'Onafhankelijk lucht kanaal',
+                'a5'         => 'Bij de Mitsubishi Jet Towel Mini zijn de lucht-inlaatpoort en het luchtkanaal gescheiden en geïsoleerd van de water afvoer. Op deze manier zorgt de Mitsubishi Jet Towel Mini voor verse lucht die wordt gebruikt bij het drogen van uw handen.',
+                'q6'         => 'Flexibel inzetbaar',
+                'a6'         => 'De Jet Towel mini kan in verschillende soorten toiletruimtes worden gebruikt. Zo kunt u hem boven de wasbak hangen maar ook direct naast de wasbak zo dat bijvoorbeeld ook mensen in rolstoelen gemakkelijk hun handen kunnen drogen.',
+        ],
+    
+            'page_jettowelsmart'          => [
+                'title'         => 'Mitsubishi Jet Towel Smart™',
+                'subtitle'         => 'De compacte design variant, de Mitsubishi Jet Towel Smart™',
+                'ordernow'         => 'Bestel direct',
+                'slogan'         => 'Waarom kiezen voor de Mitsubishi Jet Towel Smart™ handdroger?',
+                'q1'         => 'Richtingbepalend design',
+                'a1'         => 'Met zijn modern, rechtlijnig ontwerp past de Jet Towel Smart in ieder interieur. Door zijn kleine afmetingen is hij ook perfect te monteren in kleine ruimten. Zijn hellende vlakken voorkomen dat de Jet Towel Smart wordt gebruikt om dingen op te zetten. Zo blijft hij dag in dag uit proper.',
+                'q2'         => 'Water opvangbakje',
+                'a2'         => 'Het water dat van uw handen komt wordt verzameld in het waterreservoir en komt keurig in het opvangbakje terecht.',
+                'q3'         => 'Duurzaam en robuust',
+                'a3'         => 'Bij de ontwikkeling van de Jet Towel Smart werd veel aandacht besteed aan een lange levensduur. Zijn robuuste motor is ontworpen voor jarenlang gebruik. Zijn stevige metalen kap en volledig weggewerkte schakelaar beschermen hem bovendien tegen vandalisme.',
+                'q4'         => 'Reiniging en hygiëne',
+                'a4'         => 'Alle oppervlakken van de Jet Towel Smart hebben een duurzame en betrouwbare antibacteriële laag. Ze mogen bovendien worden gereinigd met alcoholhoudende middelen. Reiniging van de filters is mogelijk en u hoeft er zelfs het apparaat niet voor te de monteren.',
+                'q5'         => 'Nog kostenbewuster met de Jet Towel Smart Lite',
+                'a5'         => 'Als bijzonder zuinig alternatief is er de Jet Towel Smart Lite. Hij verwarmt de luchtstroom niet, verbruikt daardoor minder energie en vermindert bovendien de verbruikskosten bij ieder gebruik. Bovendien is de aankoopprijs dankzij de uitvoering in schokbestendige kunststof voordeliger.',
+                'q6'         => 'In individuele huiskleuren leverbaar',
+                'a6'         => 'De behuizing van zowel de Jet Towel Smart als de Jet Towel Smart Lite kunnen in de door uw gewenste kleur en met uw logo worden geleverd. Daarmee creëren ze nieuwe vrijheden in de ruimtelijke indeling en laten ze zich naadloos in aantrekke- lijke architectonische concepten integreren. Let op: voor op maat gemaakte versies geldt een minimum bestelhoeveelheid.',
+        ],
 
 	'page_contact'		=> [
 		'title'			=> 'Onze contactgegevens',
@@ -152,6 +211,10 @@ return [
 		'filter_brand'		=> 'Filter op merk',
 		'filter'			=> 'Filter',
 		'search_in_category'=> 'Zoek binnen :category',
+                'moreinfo'		=> 'Meer informatie',
+                'jettowelslim'		=> 'Jet Towel Slim',
+            'jettowelsmart'		=> 'Jet Towel Smart',
+            'jettowelmini'		=> 'Jet Towel Mini',
 	],
 
 	'search_in_products'	=> 'Zoek binnen assortiment',

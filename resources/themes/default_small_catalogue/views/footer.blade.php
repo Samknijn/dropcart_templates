@@ -15,7 +15,7 @@
         </div>
         <div class="col-sm-2">
             <div class="box activiteiten">
-                <h4>Volg ons via</h4>
+                <h4>{{ lang('footer.volgons') }}</h4>
                 <ul>
                     <li><a href="http://www.twitter.com/HygreenEU" target="_blank"><img src="{{ env('BASE_URL', '/') . 'img/activiteiten_twitter.png' }}"> Twitter</a></li>
                     <li><a href="http://www.facebook.com/HygreenEU"  target="_blank"><img src="{{ env('BASE_URL', '/') . 'img/facebook.png' }}"> Facebook</a></li>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="col-sm-2 text-right">
-            <h4>Contact met ons</h4>
+            <h4>{{ lang('footer.contact') }}</h4>
             <p><a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true" style="font-size: 20pt; margin-right: 10px;"></span></a>
                 <a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size: 20pt;"></span></a></p>
         </div>

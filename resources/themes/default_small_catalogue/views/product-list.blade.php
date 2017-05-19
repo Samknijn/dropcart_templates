@@ -143,37 +143,37 @@
         <div class="col-md-3 filter-box">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h5 class="panel-title">Jet Towel Slim</h5>
+                <h5 class="panel-title">{{ lang('page_product_list.jettowelslim') }}</h5>
             </div>
             <div class="panel-body">
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelslim.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>
             <div class="panel panel-default">
             <div class="panel-heading">
-                <h5 class="panel-title">Jet Towel Slim</h5>
+                <h5 class="panel-title">{{ lang('page_product_list.jettowelsmart') }}</h5>
             </div>
             <div class="panel-body">
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>
             <div class="panel panel-default">
             <div class="panel-heading">
-                <h5 class="panel-title">Jet Towel Slim</h5>
+                <h5 class="panel-title">{{ lang('page_product_list.jettowelmini') }}</h5>
             </div>
             <div class="panel-body">
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>

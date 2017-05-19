@@ -28,7 +28,7 @@
   
         <div class="imgcolor imgwidth text-center">
             <br/>
-            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">{{ lang('page_all.moreinfo') }}</a>
         </div>
     </div>
     <div class="col-sm-4 text-center">
@@ -37,7 +37,7 @@
     
         <div class="imgcolor imgwidth1 text-center">
             <br/>
-       <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+       <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">{{ lang('page_all.moreinfo') }}</a>
         </div>
     </div>
     <div class="col-sm-4 text-center">
@@ -45,7 +45,7 @@
         
         <div class="imgcolor imgwidth2 text-center">
             <br/>
-            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">{{ lang('page_all.moreinfo') }}</a>
         </div>
     </div>
 </div>
