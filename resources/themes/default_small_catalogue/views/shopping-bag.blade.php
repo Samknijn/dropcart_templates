@@ -84,7 +84,7 @@
                     $totalQuantity  = ($totalQuantity + $sbi['quantity']);
                 ?>
                 <tr>
-                    <td><img src="{{ ((count($sbi['product']['images']) > 0) ? $sbi['product']['images'][0] : env('BASE_URL', '/') . 'includes/images/no_image.gif') }}" class="fill"></td>
+                    <td><img src="{{ ((count($sbi['product']['images']) > 0) ? $sbi['product']['images'][0] : env('BASE_URL', '/') . 'img/no_image.gif') }}" class="fill"></td>
                     <td>
                         <strong><a href="{{ route('product', ['locale' => loc(), 'product_id' => $sbi['product']['id'], 'product_name' => str_slug($sbi['product']['name'])]) }}">{{ $sbi['product']['name'] }}</a></strong>
                         <br>

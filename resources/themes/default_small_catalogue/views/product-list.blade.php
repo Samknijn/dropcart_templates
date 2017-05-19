@@ -17,54 +17,18 @@
 @section('content')
     <h1>{!! $page_title or '' !!}</h1>
 
-    <div class="col-md-2 filter-box">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h5 class="panel-title">{{ lang('page_product_list.filter_brand') }}</h5>
-            </div>
-            <div class="panel-body">
-                <form class="form-horizontal">
-                    @if(isset($query))
-                        <input type="hidden" name="query" value="{{$query}}" />
-                    @endif
-                    @if (!empty($brands))
-                        <div class="form-group">
-                            <div class=" col-sm-12">
-                                @foreach ($brands as $brand_id => $brand_name)
-                                    <div class="checkbox">
-                                        <label class="checkbox-custom" id="brand-{{$brand_id}}">
-                                            <input name="brands[]" type="checkbox"
-                                                   value="{{$brand_id}}"{{in_array($brand_id, $selected_brands) ? ' checked="checked"' : ''}}>
-                                            <span class="checkbox-label">{{$brand_name}}</span>
-                                        </label>
-                                    </div>
-                                @endforeach
-                            </div>
-                        </div>
-                    @endif
-
-                    {{--<div class="form-group">--}}
-                    {{--<div class="col-sm-12">--}}
-                    {{--<div class="checkbox">--}}
-                    {{--<label class="checkbox-custom" id="0">--}}
-                    {{--<input name="show_unavailable_items" type="checkbox" value="true"{{ $show_unavailable_items ? ' checked="checked"' : '' }}>--}}
-                    {{--<span class="checkbox-label">Toon ook producten die niet op voorraad zijn</span>--}}
-                    {{--</label>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-                    <br/>
-                    <div class="form-group">
-                        <div class="col-sm-12">
-                            <button type="submit" class="btn btn-primary pull-left">{{ lang('page_product_list.filter') }}</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="product-list col-md-10">
+    <style>
+        .order-link {
+            font-size: 12pt;
+        }
+        #description {
+            max-height: 100px;
+            overflow: hidden;
+        }
+    </style>
+    
+    <div class="row">
+    <div class="product-list col-md-9">
         <!-- Search in category -->
         <form class="form-horizontal">
             @foreach($selected_brands as $key => $selected_brand)
@@ -109,7 +73,7 @@
                     ]) }}">{{ $product['name'] }}</a></h3>
 
                     {{-- PRODUCT DESCRIPTION --}}
-                    <p>{{ (!empty($product['description']) ? $product['description'] : lang('product_info.no_description', [
+                    <p id="description" class="description">{{ (!empty($product['description']) ? $product['description'] : lang('product_info.no_description', [
                         'product_name' => $product['name']
                     ])) }}</p>
 
@@ -175,9 +139,50 @@
             </div>
         @endforelse
     </div>
+    
+        <div class="col-md-3 filter-box">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">Jet Towel Slim</h5>
+            </div>
+            <div class="panel-body">
+                <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelslim.png' }}">
+                 <div class="imgcolor text-center">
+                    <br/>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                </div>
+            </div>
+        </div>
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">Jet Towel Slim</h5>
+            </div>
+            <div class="panel-body">
+                <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
+                 <div class="imgcolor text-center">
+                    <br/>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                </div>
+            </div>
+        </div>
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="panel-title">Jet Towel Slim</h5>
+            </div>
+            <div class="panel-body">
+                <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
+                 <div class="imgcolor text-center">
+                    <br/>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
 
     @if(count($pagination) > 0)
         <div class="pagination-block">
+            <br /><br />
             <p class="info">
                 {{ lang('pagination.num_results_on_page', ['count' => $pagination['count']]) }}
                 {{ lang('pagination.of_total', ['count' => $pagination['total']]) }}
@@ -215,7 +220,7 @@
                 ?>
 
                 @if($pagination['total_pages'] == 1)
-                    <li class="disabled">1</li>
+                    <li class="disabled"></li>
                 @else
                     <li class="{{ $pagination['current_page'] == 1 ? 'active' : '' }}"><a
                                 href="?page=1{{ $vars }}">1</a></li>

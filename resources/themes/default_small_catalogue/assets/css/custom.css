@@ -121,7 +121,6 @@
 
 /* Filter box */
 .filter-box {
-    padding: 0px;
 	margin-top: 48px;
 }
 
@@ -163,3 +162,31 @@
 .box.activiteiten ul li a:hover {
 	color:#000;	
 }
+
+    .imgcolor{
+        background-color: #FAFBF6;
+    }
+    .imgwidth{
+        width:288px !important;
+        display: inline-block;
+    }
+    .imgwidth1{
+        width:303px;
+        display: inline-block;
+    }
+    .imgwidth2{
+        width:281px;
+        display: inline-block;
+    }
+    .home .img-responsive {
+        display: inline !important;
+    }
+    
+    .btn-width {
+        width: 100%;
+        font-size: 14pt !important;
+        border-bottom-left-radius: 4px !important;
+        border-bottom-right-radius: 4px !important;
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 0px !important;
+    }

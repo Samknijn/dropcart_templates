@@ -1,33 +1,3 @@
-<style>
-    .imgcolor{
-        background-color: #FAFBF6;
-    }
-    .imgwidth{
-        width:288px !important;
-        display: inline-block;
-    }
-    .imgwidth1{
-        width:303px;
-        display: inline-block;
-    }
-    .imgwidth2{
-        width:281px;
-        display: inline-block;
-    }
-    .home .img-responsive {
-        display: inline !important;
-    }
-    
-    .btn-width {
-        width: 100%;
-        font-size: 14pt !important;
-        border-bottom-left-radius: 4px !important;
-        border-bottom-right-radius: 4px !important;
-        border-top-left-radius: 0px !important;
-        border-top-right-radius: 0px !important;
-    }
-</style>
-
 <?php
 
 /**
@@ -67,7 +37,7 @@
     
         <div class="imgcolor imgwidth1 text-center">
             <br/>
-        <input type="button" class="btn btn-primary btn-width" value="Meer informatie">
+       <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
         </div>
     </div>
     <div class="col-sm-4 text-center">
@@ -75,7 +45,7 @@
         
         <div class="imgcolor imgwidth2 text-center">
             <br/>
-            <input type="button" class="btn btn-primary btn-width" value="Meer informatie">
+            <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
         </div>
     </div>
 </div>
