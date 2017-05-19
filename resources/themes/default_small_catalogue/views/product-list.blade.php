@@ -161,7 +161,7 @@
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">Meer informatie</a>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">Meer informatie</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">Meer informatie</a>
                 </div>
             </div>
         </div>
