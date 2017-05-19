@@ -23,21 +23,23 @@
 </div>
 
 <div class="row">
-    <div class="col-sm-12">
-        <p>
-           {{ lang('page_jettowelslim.lead_description') }}  
-        </p>
+    <div class="col-sm-4">
+        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimwit.png' }}">
     </div>
-</div>
-
-<div class="row">
-    <div class="col-sm-12 text-center">
-        <img class="img-responsive" style="display: inline-block;" src="{{ env('BASE_URL', '/') . 'img/mitsubishi_jet_towel_large.png' }}">
+    <div class="col-sm-4">
+        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimdonkergrijs.png' }}">
+    </div>
+    <div class="col-sm-4">
+        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimzilver.png' }}">
     </div>
 </div>
 
 <div class="container ">
+    <div class="row">
+        <div class="col-sm-12 text-center">
     <h2>Waarom kiezen voor de Mitsubishi Jet Towel Slim™ handdroger?</h2><br/>
+        </div>
+    </div>
     <div class="row">
         
     <div class="panel-group" id="faqAccordion">
