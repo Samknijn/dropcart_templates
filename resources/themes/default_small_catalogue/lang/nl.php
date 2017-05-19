@@ -77,6 +77,13 @@ return [
 			'lead_title'	=> 'Handdrogers',
 			'lead_text'		=> '10 seconde droogtijd / Zeer energiezuinig / lage geluidsproductie / Water opvangbak'
 	],
+    
+    	'page_jettowelslim'			=>  [
+			'title'			=> 'Welkom',
+			'lead_title'	=> 'Mitsubishi Jet Towel Slim™',
+			'lead_text'		=> 'De dubbele luchtstroom - Mitsubishi Jet Towel Slim™ handdroger',
+                        'lead_description'      => 'Mitsubishi Electrics is de uitvinder van de hands in techniek en is sinds 1993 constant bezig met de ontwikkeling van de Mitsubishi Jet Towel. Ruim twintig jaar van ontwikkelen heeft ervoor gezorgd dat Mitsubishi Electrics nu met de Mitsubishi Jet Towel Slim op de markt is gekomen. De Mitsubishi Jet Towel Slim droogt uw handen in 10 seconden en daarbij is het energie verbruik en de geluidsproductie van de Jet Towel zeer laag. Daarnaast zorgt een opvangbakje ervoor dat de waterdruppels niet op de muur of op de grond terecht komen. De Mitsubishi Jet Towel Slim, is de stilste, schoonste en efficiëntste handdroger van dit moment.',
+	],
 
 	'page_contact'		=> [
 		'title'			=> 'Onze contactgegevens',

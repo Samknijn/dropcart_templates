@@ -33,10 +33,22 @@ $app->group([
         return View::make('Current::home');
     }]);
 
-        //**Jet Towel Slim */
+            //**Jet Towel Slim */
      $app->get('/' . lang('jettowelslim'), ['as' => 'jettowelslim', function() use ($app)
     {
         return View::make('Current::jettowelslim');
+    }]);
+    
+            //**Jet Towel Smart */
+     $app->get('/' . lang('jettowelsmart'), ['as' => 'jettowelsmart', function() use ($app)
+    {
+        return View::make('Current::jettowelsmart');
+    }]);
+    
+            //**Jet Towel Mini */
+     $app->get('/' . lang('jettowelmini'), ['as' => 'jettowelmini', function() use ($app)
+    {
+        return View::make('Current::jettowelmini');
     }]);
     
 	/** CONTACT PAGE */
