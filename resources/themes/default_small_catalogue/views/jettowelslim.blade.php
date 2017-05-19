@@ -15,26 +15,29 @@
 
 
 @section('content')
-<div class="jumbotron" style="padding-bottom: 20px; padding-top: 20px;">
-    <h2>{{ lang('page_jettowelslim.lead_title') }} </h2>  
-    <p class="lead"> 
-        {{ lang('page_jettowelslim.lead_text') }} 
-    </p>
-</div>
+<div class="row" style="margin-top: 40px;">
+    <div class="col-sm-5">
+        <h2>{{ lang('page_jettowelslim.lead_title') }} </h2>   
+        <p class="lead"> 
+            {{ lang('page_jettowelslim.lead_text') }} 
+        </p>
+    </div>
+     <div class="col-sm-7">
+        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/mitsubishi_jet_towel_large.png' }}">
+    </div>
+    </div>
 
 <div class="row">
-    <div class="col-sm-4">
-        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimwit.png' }}">
+    <div class="col-sm-5">
+        
     </div>
-    <div class="col-sm-4">
-        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimdonkergrijs.png' }}">
-    </div>
-    <div class="col-sm-4">
-        <img class="img-responsive text-center" src="{{ env('BASE_URL', '/') . 'img/jettowelslimzilver.png' }}">
+    <div class="col-sm-7 text-center">
+        <br />
+        <a href="{{ env('BASE_URL', '/') . 'nl/producten?query=Jet+Towel+Slim' }}" class="btn btn-primary">Bestel direct</a>
     </div>
 </div>
 
-<div class="container ">
+<div class="container" style="margin-top:50px;">
     <div class="row">
         <div class="col-sm-12 text-center">
     <h2>Waarom kiezen voor de Mitsubishi Jet Towel Slim™ handdroger?</h2><br/>
@@ -139,5 +142,6 @@
       
     <!--/panel-group-->
     </div>
+</div>
 </div>
 @endsection
