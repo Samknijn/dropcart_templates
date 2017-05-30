@@ -56,7 +56,7 @@
                     <br/>
                     <div class="form-group">
                         <div class="col-sm-12">
-                            <button type="submit" class="btn btn-primary pull-left">{{ lang('page_product_list.filter') }}</button>
+                            <button type="submit" class="btn btn-green pull-left">{{ lang('page_product_list.filter') }}</button>
                         </div>
                     </div>
                 </form>

@@ -27,7 +27,7 @@
     <div class="col-md-12">
         <br />
         <form class="printer-products" method="get">
-        <a disabled href="#" class="btn btn-primary pull-right submit-btn">{{ lang('show_my_cartridges') }}</a>
+        <a disabled href="#" class="btn btn-green pull-right submit-btn">{{ lang('show_my_cartridges') }}</a>
         </form>
     </div><!-- /col-->
 </div><!-- /row -->

@@ -33,7 +33,7 @@
     </div>
     <div class="col-sm-7 text-center">
         <br />
-        <a href="{{ env('BASE_URL', '/') . 'nl/product/mitsubishi-jet-towel-smart-donkergrijs-zilver-frontpaneel/6486/' }}" class="btn btn-primary">{{ lang('page_jettowelmini.ordernow') }}</a>
+        <a href="{{ env('BASE_URL', '/') . 'nl/product/mitsubishi-jet-towel-smart-donkergrijs-zilver-frontpaneel/6486/' }}" class="btn btn-green">{{ lang('page_jettowelmini.ordernow') }}</a>
     </div>
 </div>
 

@@ -33,7 +33,7 @@
     </div>
     <div class="col-sm-7 text-center">
         <br />
-        <a href="{{ env('BASE_URL', '/') . 'nl/producten?query=Smart' }}" class="btn btn-primary">{{ lang('page_jettowelsmart.ordernow') }}</a>
+        <a href="{{ env('BASE_URL', '/') . 'nl/producten?query=Smart' }}" class="btn btn-green">{{ lang('page_jettowelsmart.ordernow') }}</a>
     </div>
 </div>
 

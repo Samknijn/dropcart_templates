@@ -6,7 +6,7 @@
  */
 ?>
 
-<nav>
+<nav class="container">
     <ul class="nav nav-justified">
         <li class="no">
             <a href="<?= route('home', ['locale' => loc()]); ?>">
@@ -54,6 +54,5 @@
                 </div>
             </form>
         </li>
-        
     </ul>
 </nav>

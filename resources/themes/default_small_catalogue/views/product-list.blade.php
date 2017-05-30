@@ -95,7 +95,7 @@
 
                     {{-- PRODUCT INFO --}}
                     <div class="float-right product-details">
-                        <table class="product-id-table">
+<!--                        <table class="product-id-table">
                             <tr>
                                 <th>EAN</th>
                                 <td><?= $product['ean'] ?></td>
@@ -104,7 +104,7 @@
                                 <th>SKU</th>
                                 <td><?= $product['sku'] ?></td>
                             </tr>
-                        </table>
+                        </table>-->
                     </div>
                     <div class="float-clear"></div>
                 </div>
@@ -123,7 +123,7 @@
                         </p>
                         <div>
                             <a href="<?= route('shopping_bag_add', ['product_id' => $product['id'], 'quantity' => 1, 'locale' => loc()]); ?>"
-                               class="btn btn-lg btn-block btn-primary order-link">
+                               class="btn btn-lg btn-block btn-green order-link">
                                 <span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;{{ lang('product_info.order_now') }}
                             </a>
                         </div>
@@ -149,7 +149,7 @@
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelslim.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelslim/' }}" class="btn btn-green btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>
@@ -161,7 +161,7 @@
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelsmart.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelsmart/' }}" class="btn btn-green btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
                 <img class="img-responsive" src="{{ env('BASE_URL', '/') . 'img/jettowelmini.png' }}">
                  <div class="imgcolor text-center">
                     <br/>
-                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-primary btn-width">{{ lang('page_product_list.moreinfo') }}</a>
+                    <a href="{{ env('BASE_URL', '/') . 'nl/jettowelmini/' }}" class="btn btn-green btn-width">{{ lang('page_product_list.moreinfo') }}</a>
                 </div>
             </div>
         </div>
